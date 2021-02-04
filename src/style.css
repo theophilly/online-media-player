@@ -1,0 +1,282 @@
+.sidebar {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+  background: white;
+}
+
+.sidebar-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.sidebar-top img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 13px;
+}
+
+.sidebar-top p {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.sidebar-top span {
+  color: #8a91a6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+}
+
+.sidebar ul {
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-top: 20px;
+  color: #242121;
+}
+
+.sidebar ul li i {
+  margin-right: 15px;
+}
+
+.sidebar ul li .active {
+  margin-right: 15px;
+  color: dodgerblue;
+}
+
+.contentarea {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+  overflow: hidden;
+  background: #f0f1f1;
+  height: calc(100vh - 100px);
+}
+
+.musicdetails {
+  margin: 10px 0px;
+  height: 50px;
+  border-radius: 7px;
+  width: 700px;
+  background: white;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.musicdetailsinner {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.musicdetailsinner2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.musicdetails img:nth-child(2) {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.musicdetails .label {
+  margin-right: 40px;
+  color: #8a91a6;
+  font-size: 0.9rem;
+}
+
+.musiccard {
+  width: 210px;
+  height: 260px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.musiccard img {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 5px 30px 0px rgba(50, 50, 50, 0.22);
+  box-shadow: 1px 5px 30px 0px rgba(50, 50, 50, 0.22);
+}
+
+.musiccard div p:nth-child(1) {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.musiccard div p:nth-child(2) {
+  font-size: 0.8rem;
+  color: #8a91a6;
+}
+
+.musicplayer {
+  background: grey;
+  min-height: 100px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.musicplayer .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.33;
+      -ms-flex: 0.33;
+          flex: 0.33;
+}
+
+.musicplayer .section1inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  color: white;
+}
+
+.musicplayer .section1inner p:nth-child(1) {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2px;
+}
+
+.musicplayer .section1 img {
+  height: 100%;
+  width: 98px;
+}
+
+.musicplayer .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0.33;
+      -ms-flex: 0.33;
+          flex: 0.33;
+}
+
+.musicplayer .section2 .upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.musicplayer .section2 .upper p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.musicplayer .section2 .lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 13px;
+}
+
+.musicplayer .section2 .lower input[type="range"] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  height: 2px;
+  margin: 0 8px;
+}
+
+.musicplayer .section2 .lower span {
+  font-size: 0.9rem;
+}
+
+.musicplayer .section3 {
+  -webkit-box-flex: 0.33;
+      -ms-flex: 0.33;
+          flex: 0.33;
+}
+
+#play {
+  font-size: 1.6rem;
+  border: 1px solid #b3b3b3;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background: #330000;
+}
+
+#play:hover {
+  background: #1a1a1a;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  max-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
