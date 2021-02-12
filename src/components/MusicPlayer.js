@@ -1,5 +1,5 @@
 import React from "react";
-import pami from "./kolade.jfif";
+import pami from "./omo.jpeg";
 
 function MusicPlayer(props) {
   return (
