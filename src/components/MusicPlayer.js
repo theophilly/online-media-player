@@ -35,7 +35,14 @@ function MusicPlayer(props) {
           <span>5:07</span>
         </div>
       </div>
-      <div className="section3"></div>
+      <div className="section3">
+        <div className="section3inner">
+          <p id="speaker">
+            <i class="fas fa-volume-up"></i>
+          </p>
+          <input type="range" id="vol" name="vol" min="0" max="50"></input>
+        </div>
+      </div>
     </div>
   );
 }
